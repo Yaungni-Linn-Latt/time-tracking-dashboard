@@ -1,4 +1,3 @@
-$(".weekly").addClass("click");
 $(".daily").click(function(){
   $(".work-hr").text("5hrs");
   $(".last-work").text("Yesterday - 7hrs");
