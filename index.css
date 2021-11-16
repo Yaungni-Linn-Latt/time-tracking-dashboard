@@ -50,6 +50,9 @@ li{
 .time-link:hover{
   color: white;
 }
+.click{
+  color: white;
+}
 .cards{
   height: 100%;
   color: white;
@@ -149,7 +152,7 @@ li{
     display: inline-block;
   }
   .sub-title{
-    width: 70%;
+    width: 90%;
     margin-bottom: 4%;
   }
   .bg-color{
