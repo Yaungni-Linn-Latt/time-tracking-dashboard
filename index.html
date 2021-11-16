@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="mobile">
+
+
+  <div class="container main-box">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="period">
+        <div class="user">
+          <img class="user-profile" src="images/image-jeremy.png" alt="jeremy">
+          <div class="mobile-user">
+          <p>Report for</p>
+          <h1 class="name">Jeremy Robson</h1>
+          </div>
+        </div>
+            <ul class="period-list">
+              <li><a class="time-link daily" href="#">Daily</a></li>
+              <li><a class="time-link weekly" href="#">Weekly</a></li>
+              <li><a class="time-link monthly" href="#">Monthly</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="col-md-9">
+        <div class="container-fluid cards">
+          <div class="row">
+            <div class="col-md-4 upper-box">
+              <div class="work-box">
+                <div class="work bg-color">
+                  <span class="sub-title">Work</span>
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="ellipis">
+                  <h1 class="hour work-hr">32hrs</h1>
+                  <p class="last last-work">Last Week - 36hrs</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-4 upper-box">
+              <div class="play-box">
+              <div class="play bg-color">
+                <span class="sub-title">Play</span>
+                <img class="dots" src="images/icon-ellipsis.svg" alt="ellipis">
+                <h1 class="hour play-hr">10hrs</h1>
+                <p class="last last-play">Last Week - 8hrs</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 upper-box">
+              <div class="study-box">
+                <div class="study bg-color">
+                  <span class="sub-title">Study</span>
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="ellipis">
+                  <h1 class="hour study-hr">4hrs</h1>
+                  <p class="last last-study">Last Week - 7hrs</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="exercise-box">
+                <div class="exercise bg-color">
+                  <span class="sub-title">Exercise</span>
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="ellipis">
+                  <h1 class="hour exercise-hr">4hrs</h1>
+                  <p class="last last-exercise">Last Week - 5hrs</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="social-box">
+                <div class="social bg-color">
+                  <span class="sub-title">Social</span>
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="ellipis">
+                  <h1 class="hour social-hr">5hrs</h1>
+                  <p class="last last-social">Last Week - 10hrs</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-4 ">
+              <div class="self-box">
+                <div class="self-care bg-color">
+                  <span class="sub-title">Self Care</span>
+                  <img class="dots" src="images/icon-ellipsis.svg" alt="ellipis">
+                  <h1 class="hour self-hr">2hrs</h1>
+                  <p class="last-self">Last Week - 2hrs</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Yaungni-Linn-Latt" target="_blank">Yaungni Linn Latt</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
