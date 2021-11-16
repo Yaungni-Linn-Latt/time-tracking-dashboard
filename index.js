@@ -1,3 +1,4 @@
+$(".weekly").addClass("click");
 $(".daily").click(function(){
   $(".work-hr").text("5hrs");
   $(".last-work").text("Yesterday - 7hrs");
@@ -11,9 +12,9 @@ $(".daily").click(function(){
   $(".last-social").text("Yesterday - 3hrs");
   $(".self-hr").text("0hr");
   $(".last-self").text("Yesterday - 1hr");
-  $(".daily").css("color","white");
-  $(".weekly").css("color","hsl(236, 100%, 87%)");
-  $(".monthly").css("color","hsl(236, 100%, 87%)");
+  $(".daily").addClass("click");
+  $(".weekly").removeClass("click");
+  $(".monthly").removeClass("click");
 });
 $(".weekly").click(function(){
   $(".work-hr").text("32hrs");
@@ -28,9 +29,9 @@ $(".weekly").click(function(){
   $(".last-social").text("Last Week - 10hrs");
   $(".self-hr").text("2hrs");
   $(".last-self").text("Last Week - 2hrs");
-  $(".daily").css("color","hsl(236, 100%, 87%)");
-  $(".weekly").css("color","white");
-  $(".monthly").css("color","hsl(236, 100%, 87%)");
+  $(".daily").removeClass("click");
+  $(".weekly").addClass("click");
+  $(".monthly").removeClass("click");
 });
 $(".monthly").click(function(){
   $(".work-hr").text("103hrs");
@@ -45,7 +46,7 @@ $(".monthly").click(function(){
   $(".last-social").text("Last Month - 23hrs");
   $(".self-hr").text("7hrs");
   $(".last-self").text("Last Month - 11hrs");
-  $(".daily").css("color","hsl(236, 100%, 87%)");
-  $(".weekly").css("color","hsl(236, 100%, 87%)");
-  $(".monthly").css("color","white");
+  $(".daily").removeClass("click");
+  $(".weekly").removeClass("click");
+  $(".monthly").addClass("click");
 });
